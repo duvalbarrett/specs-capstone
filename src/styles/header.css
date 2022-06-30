@@ -1,0 +1,218 @@
+body {
+  font-family: "Arial";
+}
+
+.logo {
+  width: 35vw;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(197, 197, 253, 0.356);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.289);
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Rancher", cursive;
+  font-size: smaller;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-mid {
+  display: flex;
+  flex: 0;
+  flex-direction: justify;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  margin-top: -80px;
+}
+
+.link-header {
+  display: flex;
+  text-decoration: none;
+  position: relative;
+  width: 100px;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+}
+
+.link-header:hover {
+  color: orange;
+  font-size: x-large;
+}
+
+.item-buttons,
+.placeorder-btn {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 2px solid orange;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: orange;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  margin-top: 205px;
+  margin-left: 140px;
+}
+
+.item-buttons2 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 2px solid orange;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: orange;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  margin-top: 200px;
+  margin-left: -0px;
+}
+
+.item-buttons:before,
+.item-buttons2:before,
+.placeorder-btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: blue;
+  z-index: -1;
+}
+
+.item-buttons:hover,
+.item-buttons:focus,
+.placeorder-btn:hover,
+.placeorder-btn:focus {
+  color: rgb(255, 255, 255);
+}
+
+.item-buttons:hover:before,
+.item-buttons:focus:before,
+.item-buttons2:hover:before,
+.item-buttons2:focus:before,
+.placeorder-btn:hover:before,
+.placeorder-btn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.item-buttons:active,
+.item-buttons2:active,
+.placeorder-btn:active {
+  transform: scale(0.9);
+}
+
+.login-btn,
+.logout-btn {
+  height: 2.8em;
+  width: 9em;
+  background: transparent;
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+  border: 2px solid #016dd9;
+  outline: none;
+  color: #016dd9;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: -190px;
+  margin-right: -10px;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background: #016dd9;
+  color: #ffffff;
+  animation: squeeze3124 0.9s both;
+}
+
+@keyframes squeeze3124 {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}

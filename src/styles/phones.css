@@ -1,0 +1,40 @@
+.phones {
+  display: flex;
+  justify-content: center;
+}
+
+.phones-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+}
+
+.phones-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 3px ridge rgb(157, 157, 247);
+  width: 35vw;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(122, 193, 225);
+  border-radius: 20px;
+}
+
+.phone-photo {
+  width: 20vw;
+}
+
+.phone-name {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  width: 30vw;
+}

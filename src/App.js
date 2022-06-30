@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Phones from "./pages/Phones";
+import Games from "./pages/Games";
+import Homepage from "./pages/Homepage";
+import OrderPage from "./pages/OrderPage";
+import Thanks from "./pages/Thanks";
+import "@stripe/stripe-js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/phones" element={<Phones />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/order" element={<OrderPage />} />
+          <Route path="/thanks" element={<Thanks />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

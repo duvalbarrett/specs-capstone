@@ -1,0 +1,279 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap"); */
+
+.order-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 3px ridge rgb(157, 157, 247);
+  width: 20vw;
+  margin-top: 40px;
+  align-items: center;
+  color: green;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.item-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.item-photo {
+  width: 10vw;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.order-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  margin-top: 50px;
+}
+
+.receipt-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.another-receipt-container {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  border: 7px solid #9d9df7;
+  padding-bottom: 50px;
+  box-shadow: 0px 0px 8px 1px black;
+  border-radius: 20px;
+}
+
+.receipt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid #9d9df7;
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.receipt-name {
+  display: flex;
+  flex: 3;
+}
+
+.receipt-price {
+  display: flex;
+  flex: 1;
+}
+
+.receipt-qty {
+  display: flex;
+  flex: 1;
+}
+
+.add-button {
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Rancher", cursive;
+  box-shadow: 0px 0px 10px 1px #9d9df7;
+}
+
+.add-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.add-button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.add-button:hover span {
+  padding-right: 25px;
+}
+
+.add-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e90f0f;
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px #9d9df7;
+  cursor: pointer;
+  width: 108px;
+  height: 5vh;
+  text-decoration: none;
+  border: none;
+  font-family: "Rancher", cursive;
+}
+
+.minus-plus-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px #9d9df7;
+  cursor: pointer;
+  width: 40px;
+  height: 5vh;
+  text-decoration: none;
+  border: none;
+  font-family: "Rancher", cursive;
+}
+
+.plus-minus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 10vw;
+}
+
+.count {
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-icon-container {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.payment-choice {
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  color: #212121;
+  background: #e8e8e8;
+  font-weight: 1000;
+  font-size: 17px;
+  box-shadow: 4px 8px 5px -3px rgba(0, 0, 0, 0.27);
+  font-family: "Rancher", cursive;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.checkout-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.payment-choice-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.checkout-btn {
+  margin-top: 20px;
+  background: linear-gradient(-45deg, rgb(105, 105, 247), beige, #9d9df7, red);
+  background-size: 800% 400%;
+  padding: 10px 60px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  animation: gradient 3s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+  font-family: "Rancher", cursive;
+  cursor: pointer;
+  box-shadow: 4px 8px 5px -3px rgba(0, 0, 0, 0.27);
+}
+
+.checkout-btn:hover {
+  animation: gradient 2s infinite;
+  transform: scale(1.05);
+}
+
+.checkout-btn:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

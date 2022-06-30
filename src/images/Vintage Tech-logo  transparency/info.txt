@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Reislust
+font link: http://www.fontspace.com/ketjupmandja/reislust
+font author: Ihsan Habib
+font author site: https://www.instagram.com/ihsanhbib/
+
+
+icon designer: cre.ativo mustard
+icon designer link: /cre.ativo.mustard
+        
+{"bg":"transparent","icon-gradient-0":"#0D7CE9","icon-gradient-1":"#15CFF1","font":"#000000","slogan":"#141414"}
+      

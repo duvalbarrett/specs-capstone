@@ -1,0 +1,116 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.ads1 {
+  width: 100vw;
+  height: 70vh;
+  margin-top: 5px;
+}
+
+.ads-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ads-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ads2 {
+  width: 100vw;
+  height: 85vh;
+  margin-top: 10px;
+}
+
+.ads-3-container {
+  display: flex;
+  flex-direction: column;
+  width: 93%;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Rancher", cursive;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ads-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-top: 20px;
+  border-top: 10px dashed;
+  border-bottom: 10px dashed;
+}
+
+.ads3 {
+  width: 100vw;
+  height: 85vh;
+  margin-top: 20px;
+  margin-bottom: -310px;
+  border: 1px solid white;
+}
+
+.ads3:hover,
+.ads2:hover,
+.ads1:hover {
+  box-shadow: 0px 0px 10px 5px rgb(99, 136, 223);
+}
+
+.ad-text-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.topbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  margin-top: 20px;
+}
+
+.adstop {
+  width: 80vw;
+  height: 50vh;
+  z-index: 0;
+  border: solid 1px black;
+}
+
+.home-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.order-btn {
+  border: none;
+  background-color: rgb(73, 59, 69);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  font-family: "Rancher", cursive;
+  box-shadow: 0px 0px 10px 1px rgb(46, 46, 89);
+  cursor: pointer;
+  font-size: larger;
+}
