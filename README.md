@@ -1,71 +1,59 @@
-# Getting Started with Create React App
+# Vintage Tech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Developer
+Duval Barrett
 
-## Available Scripts
+## Description
+Vintage Tech is a e-commerce website created to allow users to be able to shop for vintage phones and game consoles such as the Blackberry, Nokia, and Sega Genesis. It is a full-stack web application that allows the user to create an account or sign in with their own google account securely using Auth0, they are able to add and remove items in their cart and can choose either a pickup or delivery option for purchase.  Vintage Tech is a great website for individuals to feel nostalgic and re-live their younger days by having a vintage phone or game console. This e-commerce website was made with React and Javascript for the frontend and  Nodejs, Express, Axios for the backend using a PostgreSQL database.
 
-In the project directory, you can run:
 
-### `npm start`
+## Technology Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• JavaScript
 
-### `npm test`
+• Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• Express
 
-### `npm run build`
+• PostgreSQL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• NodeJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Auth0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How to Use
+• Navigate to Vintage Tech Homepage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• User can select phones or game consoles category by clicking on the preferred in the header
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• User can sign-up to create an account or login with their google account securely using Auth0
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+• User can head over to the cart once logged in and choose the quanitiy of each item listed that they wish to purchase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• User can choose either a pickup or delivery option to receive their item(s)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Photos of Project
+![Screen Shot 2022-06-30 at 4 01 59 PM](https://user-images.githubusercontent.com/97458251/176767812-1014ff79-aa9d-4032-91ca-29c02b5bc03c.png)
+![Screen Shot 2022-06-30 at 4 01 06 PM](https://user-images.githubusercontent.com/97458251/176767822-03d1792a-fc22-4802-bd32-c41922bdb757.png)
+![Screen Shot 2022-06-30 at 4 00 50 PM](https://user-images.githubusercontent.com/97458251/176767824-69749cb9-f12b-43c2-a708-c0c85576b84c.png)
+![Screen Shot 2022-06-30 at 4 00 40 PM](https://user-images.githubusercontent.com/97458251/176767835-21d32f5e-3e5d-4703-a294-a82117f9a7de.png)
+![Screen Shot 2022-06-30 at 4 00 06 PM](https://user-images.githubusercontent.com/97458251/176767837-cb808146-c9c1-42eb-9928-47924ae415c2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Links
+• Video Presentation - 
 
-### Advanced Configuration
+• GitHub - https://github.com/duvalbarrett/spec-capstone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+• LinkedIn - https://www.linkedin.com/in/duval-b-349619231/
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# specs-capstone
