@@ -39,7 +39,7 @@ Vintage Tech is a e-commerce website created to allow users to be able to shop f
 
 
 ## Photos of Project
-![Screen Shot 2022-06-30 at 4 00 06 PM](https://user-images.githubusercontent.com/97458251/176767837-cb808146-c9c1-42eb-9928-47924ae415c2.png)
+![Screen Shot 2022-07-05 at 10 33 38 AM](https://user-images.githubusercontent.com/97458251/177354194-43786406-55f2-41e2-956d-a9629db8b356.png)
 ![Screen Shot 2022-06-30 at 4 00 50 PM](https://user-images.githubusercontent.com/97458251/176767824-69749cb9-f12b-43c2-a708-c0c85576b84c.png)
 ![Screen Shot 2022-06-30 at 4 00 40 PM](https://user-images.githubusercontent.com/97458251/176767835-21d32f5e-3e5d-4703-a294-a82117f9a7de.png)
 ![Screen Shot 2022-06-30 at 4 01 59 PM](https://user-images.githubusercontent.com/97458251/176767812-1014ff79-aa9d-4032-91ca-29c02b5bc03c.png)
@@ -57,5 +57,7 @@ Vintage Tech is a e-commerce website created to allow users to be able to shop f
 • GitHub - https://github.com/duvalbarrett/spec-capstone
 
 • LinkedIn - https://www.linkedin.com/in/duval-b-349619231/
+
+
 
 
