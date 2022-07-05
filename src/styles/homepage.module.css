@@ -8,7 +8,7 @@
 .ads1 {
   width: 100vw;
   height: 70vh;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .ads-row-1 {
@@ -31,52 +31,14 @@
 
 .ads2 {
   width: 100vw;
-  height: 85vh;
-  margin-top: 10px;
+  height: 75vh;
+  margin-top: 0px;
 }
 
-.ads-3-container {
-  display: flex;
-  flex-direction: column;
-  width: 93%;
-  margin-top: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: "Rancher", cursive;
-  color: white;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.ads-row-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 90%;
-  margin-top: 20px;
-  border-top: 10px dashed;
-  border-bottom: 10px dashed;
-}
-
-.ads3 {
-  width: 100vw;
-  height: 85vh;
-  margin-top: 20px;
-  margin-bottom: -310px;
-  border: 1px solid white;
-}
-
-.ads3:hover,
 .ads2:hover,
 .ads1:hover {
   box-shadow: 0px 0px 10px 5px rgb(99, 136, 223);
-}
-
-.ad-text-3 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
 }
 
 .topbanner {
