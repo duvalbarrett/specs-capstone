@@ -52,7 +52,7 @@ Vintage Tech is a e-commerce website created to allow users to be able to shop f
 
 
 ## Links
-• Video Presentation - 
+• Video Presentation - https://www.youtube.com/watch?v=k5AFwdfme5s
 
 • GitHub - https://github.com/duvalbarrett/spec-capstone
 
